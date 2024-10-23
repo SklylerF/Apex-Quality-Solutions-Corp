@@ -4,3 +4,12 @@
     font-size: x-large;
     font-family: math;
 }
+
+#logo {
+    width: 25%;
+    border-radius: 25%;
+}
+
+#fb {
+    width: 5%;
+}
