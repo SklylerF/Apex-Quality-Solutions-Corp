@@ -12,3 +12,20 @@
 #ig {
     width: 5%;
 }
+
+a {
+    text-decoration: inherit;
+    color: black;
+}
+
+body {
+    background: #b41e2d;
+}
+
+.card {
+    background: #FF9800;
+}
+
+nav {
+    background: #FF9800;
+}
