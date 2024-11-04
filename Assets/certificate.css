@@ -18,6 +18,11 @@ a {
     color: black;
 }
 
+#logo {
+    width: 25%;
+    border-radius: 25%;
+}
+
 /* body {
     background: #b41e2d;
 } */
@@ -26,6 +31,11 @@ a {
     background: #FF9800;
 }
 
-nav {
-    background: #FF9800;
+nav.navbar.navbar-expand-lg.bg-light {
+    display: contents;
+}
+
+.container-fluid {
+
+    border-radius: 12px;
 }

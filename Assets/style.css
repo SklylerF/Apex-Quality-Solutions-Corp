@@ -34,10 +34,17 @@ body {
     display: inline-flex
 }
 
-nav {
-    background: #FF9800;
-}
 
 .card-body {
     background: #FF9800;
+}
+
+
+nav.navbar.navbar-expand-lg.bg-light {
+    display: contents;
+}
+
+.container-fluid {
+
+    border-radius: 12px;
 }

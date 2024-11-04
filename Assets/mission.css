@@ -31,6 +31,17 @@ a {
     background: #FF9800;
 }
 
-nav {
+
+.card-body {
     background: #FF9800;
+}
+
+
+nav.navbar.navbar-expand-lg.bg-light {
+    display: contents;
+}
+
+.container-fluid {
+    /* background: #ff9800; */
+    border-radius: 12px;
 }
