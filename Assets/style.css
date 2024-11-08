@@ -1,50 +1,168 @@
-* {
-    text-align: center;
-    margin: 2%;
-    font-size: x-large;
-    font-family: math;
-
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    /* Light background color for a clean, neutral look */
+    color: #333;
 }
 
-#fb {
-    width: 5%;
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
 }
 
-#ig {
-    width: 5%;
+.navbar .navbar-nav .nav-link {
+    color: #333;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
 }
 
-a {
-    text-decoration: inherit;
-    color: black;
+.navbar .navbar-nav .nav-link:hover {
+    color: #FF9800;
+}
+
+.navbar .navbar-toggler-icon {
+    background-color: #FF9800;
+    /* Toggler icon color */
 }
 
 #logo {
-    width: 25%;
-    border-radius: 25%;
+    max-width: 120px;
 }
 
-/* 
-body {
-    background: #b41e2d;
-} */
-
-.card {
-    background: #FF9800;
-    display: inline-flex
+/* Hero Section */
+.hero-section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
 
-
-.card-body {
-    background: #FF9800;
+/* Overlay for improved contrast */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Darker overlay */
+    z-index: 1;
 }
 
-
-nav.navbar.navbar-expand-lg.bg-light {
-    display: contents;
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
 }
 
-.container-fluid {
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
 
-    border-radius: 12px;
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    background-color: #FF9800;
+    border-color: #FF9800;
+}
+
+.btn-primary:hover {
+    background-color: #ff7f00;
+    border-color: #ff7f00;
+}
+
+/* Principles Section */
+.principles-section {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+
+.principles-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.principles-section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* --- Breakpoints for Responsiveness --- */
+
+/* Mobile */
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 400px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.125rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .hero-section {
+        height: 500px;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .principles-section {
+        padding: 5rem 0;
+    }
 }
