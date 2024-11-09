@@ -1,41 +1,11 @@
-* {
-    text-align: center;
-    margin: 2%;
-    font-size: x-large;
-    font-family: math;
+/* Adjust image styling for consistency */
+.certificate-section img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#fb {
-    width: 5%;
-}
-
-#ig {
-    width: 5%;
-}
-
-a {
-    text-decoration: inherit;
-    color: black;
-}
-
-#logo {
-    width: 25%;
-    border-radius: 25%;
-}
-
-/* body {
-    background: #b41e2d;
-} */
-
-.card {
-    background: #FF9800;
-}
-
-nav.navbar.navbar-expand-lg.bg-light {
-    display: contents;
-}
-
-.container-fluid {
-
-    border-radius: 12px;
+.certificate-section p {
+    font-size: 1.125rem;
+    color: #333;
 }
