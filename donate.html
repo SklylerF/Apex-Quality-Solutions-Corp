@@ -4,81 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>donate</title>
-
+    <title>Donate - Apex Quality Solutions Corp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/donate.css">
+    <link rel="icon" href="./Assets/images/icons8-handshake-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/style.css">
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <img id="logo" src="./Assets/images/logo.png" alt="logo">
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./Assets/images/logo.png" alt="Apex Quality Solutions Logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./mission.html">Mission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./certificate.html">Certificate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./info.html">Info</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./donate.html">Donate</a>
-                    </li>
-
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./mission.html">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./certificate.html">Certificate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./info.html">Info</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./donate.html">Donate</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-</header>
 
-<body>
+    <!-- Donate Section -->
+    <main class="container text-center mt-5 donate-content">
+        <h2 class="mb-4">Support Our Mission</h2>
+        <p>Click the logos below to make a donation!</p>
+        <div class="d-flex justify-content-center gap-4 mt-3">
+            <a
+                href="https://www.gofundme.com/f/break-homelessness-cycle-donate-to-apex?qid=393cfb1c9f1e716a6d562151ecdc9fa4">
+                <img src="./Assets/images/gofundmelogo.webp" alt="GoFundMe" style="width: 150px;">
+            </a>
+            <a href="https://www.zeffy.com/en-US/donation-form/7a183fd3-e904-4cf7-8baa-e0a94f8b4719">
+                <img src="./Assets/images/zeffyLogo.jpg" alt="Zeffy" style="width: 150px;">
+            </a>
+        </div>
+    </main>
 
-
-
-    <section>
-        <p>click logos to donate!</p>
-        <a
-            href="https://www.gofundme.com/f/break-homelessness-cycle-donate-to-apex?qid=393cfb1c9f1e716a6d562151ecdc9fa4"><img
-                id="gfm" src="./Assets/images/gofundmelogo.webp"></a>
-        <a href="https://www.zeffy.com/en-US/donation-form/7a183fd3-e904-4cf7-8baa-e0a94f8b4719"><img id="gfm"
-                src="./Assets/images/zeffyLogo.jpg"></a>
-    </section>
-
-    <footer>
-        <div class="card">
-            <div class="card-header">
-                Featured
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Contact us</h5>
-                <ul>
-                    <a href="mailto:paul.ferreira@apexqulitysolutionscorp.com">
-                        paul.ferreira@apexqulitysolutionscorp.com </a>
-                    <a href="mailto:paul.info@apexqulitysolutionscorp.com"> Info Email </a>
-                    <a href="https://www.facebook.com/people/Apex-Quality-Solutions/61567180976595/?mibextid=LQQJ4d"><img
-                            id="fb" src="./Assets/images/facebook.ac3b465e-4384-42a8-9142-901c0405e1bc"></a>
-                    <a href="https://www.instagram.com/apex_quality_solutions/"><img id="ig"
-                            src="./Assets/images/Instagram_logo_2022.svg"></a>
-                </ul>
+    <!-- Footer Section -->
+    <footer class="footer-section py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 Apex Quality Solutions Corp.</p>
+            <div>
+                <a href="mailto:paul.ferreira@apexqulitysolutionscorp.com" class="text-white">Email Us</a> |
+                <a href="https://www.facebook.com/people/Apex-Quality-Solutions/61567180976595/?mibextid=LQQJ4d"
+                    class="text-white" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/apex_quality_solutions/" class="text-white"
+                    target="_blank">Instagram</a>
             </div>
         </div>
-
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 </body>
-
 
 </html>
