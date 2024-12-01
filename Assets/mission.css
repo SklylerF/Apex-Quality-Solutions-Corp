@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -30,7 +29,6 @@ body {
     background-color: #FF9800;
     /* Toggler icon color */
 }
-
 
 #logo {
     max-width: 120px;
@@ -88,18 +86,26 @@ body {
     border-color: #ff7f00;
 }
 
-/* Principles Section */
-.principles-section {
+/* Mission Section */
+.mission-details {
     background-color: #ffffff;
     padding: 4rem 0;
 }
 
-.principles-section h2 {
+.mission-details h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.principles-section ul li {
+.mission-details p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission-details ul li {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     line-height: 1.8;
@@ -127,43 +133,5 @@ body {
 @media (max-width: 576px) {
     .hero-content h1 {
         font-size: 2rem;
-    }
-
-    .hero-content p {
-        font-size: 1rem;
-    }
-
-    .btn-primary {
-        width: 100%;
-    }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-    .hero-section {
-        height: 400px;
-    }
-
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-content p {
-        font-size: 1.125rem;
-    }
-}
-
-/* Desktop */
-@media (min-width: 992px) {
-    .hero-section {
-        height: 500px;
-    }
-
-    .hero-content h1 {
-        font-size: 3rem;
-    }
-
-    .principles-section {
-        padding: 5rem 0;
     }
 }

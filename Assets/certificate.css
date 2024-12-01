@@ -1,6 +1,11 @@
-* {
-    text-align: center;
-    margin: 2%;
-    font-size: x-large;
-    font-family: math;
+/* Adjust image styling for consistency */
+.certificate-section img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-section p {
+    font-size: 1.125rem;
+    color: #333;
 }
